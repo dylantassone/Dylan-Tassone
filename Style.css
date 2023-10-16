@@ -31,3 +31,11 @@ td {padding: 10px;}
         border: dashed 5px red;
         padding: 30px;
 }
+
+.paragraph {text-align: center; text-decoration: underline; text-transform: capitalize; font-family: monospace;font-size: 25px;}
+
+.njitlink:hover {background-color: red;}
+
+.rutgerslink:visited {background-color: gray;}
+
+.princetonlink:active {background-color: orange;}
