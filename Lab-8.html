@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+    <Body>
+
+        <form id="Username" method="post">
+        Username: <input type="text">
+        <form id="Password" method="post">
+        Password: <input type="text">
+        <button id="Submit"> Submit </button> 
+       
+        <script>
+            document.getElementById("Submit").addEventListener("click", 
+            function submit() {
+            let x = document.getElementById("Username").value;
+            if (x == null) {
+            alert("Enter Your Username and Password");
+            let y = document.getElementById("Password").value;
+            return false;
+             } else if (y == null) {
+            alert("Enter Your Username and Password");
+            return false;
+             } else {
+             setTimeout(3000)
+             alert("Sucess")
+           }
+            }) 
+        </script>
+
+    </Body>
+    </html>
